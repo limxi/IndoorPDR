@@ -5,6 +5,8 @@ buildscript {
         google()
         mavenCentral()
         maven { url "https://jitpack.io" } // 用于MapView
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:8.1.4'
@@ -17,6 +19,8 @@ allprojects {
         google()
         mavenCentral()
         maven { url "https://jitpack.io" }
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
     }
 }
 
