@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WIFI室内定位程序</string>
+    <string name="project_detail">WIFI定位</string>
+    <string name="add_access_point">添加接入点</string>
+    <string name="add_reference_point">添加参考点</string>
+    <string name="action_settings">设置</string>
+    <string name="locate_me">开始WIFI定位</string>
+
+    <!-- 算法名称数组 - 移除name属性 -->
+    <string-array name="algoNames">
+        <item>不加权KNN</item>
+        <item>加权KNN</item>
+        <item>最大似然估计</item>
+        <item>贝叶斯估计</item>
+        <item>余弦估计</item>
+    </string-array>
+
+    <!-- 算法值数组 - 移除name属性 -->
+    <string-array name="algoValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
